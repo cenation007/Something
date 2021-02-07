@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+.brand-logo {
+    color: black!important;
+    font-family: 'Grand Hotel', cursive;
+}
+
+
+.signin {
+    text-align: center;
+    max-width: 350px;
+    height: 50%;
+}
+
+.mycard {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid rgb(119, 150, 236) !important;
+    box-shadow: 0 1px 0 0 rgb(118, 149, 233) !important;
+  }
+
+  .signin h3 {
+    font-family: 'Grand Hotel', cursive;
+  }
+
+  .mybtn {
+      width: 300px;
+      margin-top:10px;
+      color:white !important;
+      background-color:rgb(64, 145, 238)!important;
+      border-radius: 5px;
+      font-weight: 490;
+      font-size:15px;
+      text-transform: none!important;
+  }
+
+  .gallery {
+      display : flex;
+      flex-wrap: wrap;
+  }
+
+  .gallery img {
+      margin: 15px;
+      width: 30%;
+      margin: "30px auto"
+  }
+
+  .card-image {
+    width: 100%;
+    height: max-content;
+  }
+
+.nav-wrapper a{
+    color:black !important;
+}
+
+#toast-container {
+    top: 60px !important;
+    right: 30px !important;
+    left:auto !important;
+}
+.mybtn1 {
+      width: 100px;
+      margin-top:10px;
+      color:white !important;
+      background-color:rgb(64, 145, 238)!important;
+      border-radius: 5px;
+      font-weight: 490;
+      font-size:15px;
+      text-transform: none!important;
+  }
+
+  .input-field input[type=password]:focus {
+    border-bottom: 1px solid rgb(119, 150, 236) !important;
+    box-shadow: 0 1px 0 0 rgb(118, 149, 233) !important;
+  }
+
+  .mycomment {
+    background: 0 0;
+    border: 0;
+    color: rgba(var(--i1d,38,38,38),1);
+    display: flex;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    font-size: inherit;
+    height: 18px;
+    max-height: 80px;
+    outline: 0;
+    padding: 0;
+    resize: none;
+    margin-top: 8px;
+  }
+
+  .commentBtn {
+    appearance: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    text-transform: inherit;
+    text-overflow: ellipsis;
+    user-select: none;
+    width: auto;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(var(--d69,0,149,246),1);
+    display: inline;
+    padding: 0;
+    position: relative;
+    margin: 0px;
+    border:0px;
+    background: 0 0;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    align-items: flex-start;
+    text-indent: 0px;
+    text-shadow: none;
+  }
+
+  .commentBtn:disabled,
+  button[disabled]{
+      opacity: 0.3;
+  }
+
+  .bg-modal {
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      position: fixed;
+      display: none;
+      justify-content: center;
+      align-items: center;
+      top: 0;
+  }
+  .modal-content {
+      width: 300px;
+      height: 150px;
+      background-color: white;
+      border-radius: 10px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: bottom;
+  }
+
+  .modal-content button {
+      width: 100%;
+      padding: 10px;
+      border:0px;
+      background: 0 0;
+      cursor: pointer;
+      border-top: 1px solid rgba(0,0,0,0.15)!important;
+  }
+
+  .check {
+    border: solid 1px rgba(var(--b6a,219,219,219),1);
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(var(--jb7,0,0,0),.0975);
+    display: none;
+    margin-left: 0px;
+    position: fixed;
+    right: 170px;
+    top: 70px;
+    width: 200px;
+    z-index: 9;
+    align-items: stretch;
+    background-color: white;
+    flex-shrink: 0;
+    margin: 0;
+    flex-direction: column;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+  
+  .check1 {
+    max-height: 362px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: stretch;
+    border: 0 solid #000;
+    position: relative;
+    display: flex;
+    
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 0;
+  }
+
+  nav ul {
+      display: flex !important;
+      list-style: none;
+
+      flex-wrap: wrap !important;
+  }
+  .check1::-webkit-scrollbar {
+    width: 12px;
+    background-color:rgb(245,245,245);
+}
+
+.check1::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+    background-color: rgb(200,200,200);
+  }
+
+
+.hello input[type=text]:focus {
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+.hello input[type=text]::placeholder {
+    text-align: center;
+}
+
+.usercheck {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    height: 50px;
+    padding: 8px 14px;
+}
+
+.usercheck1 {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-right: 0;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.username {
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 0;
+}
